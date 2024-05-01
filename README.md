@@ -35,7 +35,7 @@ go mod tidy
 ### 4. Build and run the bot
 
 ```bash
-go build cmd/bot/main.go
+go build -o alnath cmd/bot/main.go
 ./alnath
 ```
 
