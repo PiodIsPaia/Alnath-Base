@@ -35,8 +35,16 @@ go mod tidy
 ### 4. Build and run the bot
 
 ```bash
-go build -o alnath cmd/bot/main.go
+go build cmd/bot/main.go
 ./alnath
 ```
 
+### 5. Build and run the bot using Docker
+
+```bash
+docker build -t alnath .
+docker run -d alnath
+```
+
 ---
+
